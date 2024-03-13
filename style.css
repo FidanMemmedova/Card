@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  width: 30%;
+  text-align: center;
+  border: 3px solid green;
+  border-radius: 40px;
+  padding: 15px;
+}
+.card img {
+  width: 90%;
+  border-radius: 50%;
+}
+.cardText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    padding: 7px;
+    border-radius: 20px;
+    width: 30%;
+}
